@@ -32,7 +32,7 @@ These behaviors are modeled mathematically to guide the wolves toward the global
 
 ## 📂 Repository Structure
 
-*(Update this part according to your actual repo; placeholder section)*
+
 
 ---
 
