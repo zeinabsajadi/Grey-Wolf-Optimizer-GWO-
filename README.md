@@ -1,52 +1,59 @@
 # Grey Wolf Optimizer (GWO)
 
 This repository contains an implementation of the **Grey Wolf Optimizer (GWO)** algorithm along with several example optimization problems.  
-GWO is a nature-inspired metaheuristic that simulates the leadership hierarchy and hunting strategy of grey wolves to solve continuous optimization problems.
+GWO is a nature‑inspired metaheuristic that models the leadership hierarchy and cooperative hunting strategy of grey wolves to solve continuous optimization tasks.
 
 ---
 
 ## 🐺 What is GWO?
 
-The **Grey Wolf Optimizer**, introduced by Mirjalili et al. (2014), is based on:
+The **Grey Wolf Optimizer**, introduced by Mirjalili et al. (2014), is inspired by the natural behavior of grey wolves. It incorporates:
 
-- A hierarchical structure of wolves:
-  - **Alpha (α)** – leader
-  - **Beta (β)** – second level
-  - **Delta (δ)** – third level
-  - **Omega (ω)** – followers
-- Three main behaviors:
-  - **Encircling the prey**
-  - **Hunting**
-  - **Attacking / converging to the prey**
- 
-  - Common GWO parameters (check your code to confirm):
+### • Wolf Hierarchy
+- **Alpha (α)** – Leaders  
+- **Beta (β)** – Second level  
+- **Delta (δ)** – Third level  
+- **Omega (ω)** – Followers  
 
-    n_wolves: number of search agents (population size)  
-    max_iter: maximum number of iterations
-    dim: dimension of the search space
-    lb, ub: lower and upper bounds of variables
+### • Main Behavioral Mechanisms
+- **Encircling the prey**  
+- **Hunting with leaders (α, β, δ)**  
+- **Attacking the prey / convergence**
 
-These behaviors are modeled mathematically to search for the global optimum of a given objective function.
+These behaviors are modeled mathematically to guide the wolves toward the global optimum of a given objective function.
+
+### • Common Parameters
+- `n_wolves`: number of search agents  
+- `max_iter`: maximum number of iterations  
+- `dim`: dimensionality of the search space  
+- `lb`, `ub`: variable bounds (lower and upper limits)
 
 ---
 
 ## 📂 Repository Structure
 
+*(Update this part according to your actual repo; placeholder section)*
+
 ---
+
 ## 🎯 Applications
--GWO can be applied to:
 
-  -Engineering design optimization
-  -Mathematical benchmark functions
-  -Black-box optimization problems
-  -Hyperparameter tuning
-  -Feature selection and other metaheuristic-based tasks
-  -This repository can be used as a starting point for such applications.
+GWO can be applied to a wide range of optimization tasks, including:
+
+- Engineering design optimization  
+- Mathematical benchmark functions  
+- Black‑box optimization problems  
+- Hyperparameter tuning  
+- Feature selection  
+- General metaheuristic‑based problem solving  
+
+This repository can serve as a starting point for such applications.
+
 ---
-  ##📚 Reference
--If you use this implementation in your academic work, you may refer to the original GWO paper:
 
- -Mirjalili, S., Mirjalili, S. M., & Lewis, A. (2014).
+## 📚 Reference
 
+If you use this implementation in academic work, cite the original GWO paper:
 
-
+Mirjalili, S., Mirjalili, S. M., & Lewis, A. (2014).  
+*Grey Wolf Optimizer.* **Advances in Engineering Software**, 69, 46–61.
